@@ -16,7 +16,7 @@
         echo "$h";
         echo "\n";
         echo "$hp";
-
+        
         if ($h != $hp) {
            echo "Hasła nie są takie same!";
            return FALSE;
@@ -38,11 +38,11 @@
         $sql = "INSERT INTO logowanie (email, uzytkownik, haslo) VALUES ('$e', '$u', '$h')";
 
         $w = mysqli_query($db, $sql);
-        
+
     }    
     
     if (rejestracja() !== FALSE) {
-        header("Location: rejestracja.php");
+        header("Location: index.php");
         exit();
     }
 

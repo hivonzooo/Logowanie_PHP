@@ -2,7 +2,7 @@
 
 <head>
         <meta charset="utf-8">
-        <title>Opinia o naszej stronie</title>
+        <title>Rejestracja</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css">
         <style>
@@ -107,9 +107,5 @@
             <p>Powrót do strony <a href="index.php">logowania</a>.</p>
         </div>
     </form>
-
-    <?php
-
-    ?>
 </body>
 </html>

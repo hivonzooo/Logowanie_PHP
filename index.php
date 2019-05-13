@@ -2,7 +2,7 @@
 
 <head>
         <meta charset="utf-8">
-        <title>Opinia o naszej stronie</title>
+        <title>Logowanie</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css">
         <style>
@@ -84,12 +84,9 @@
         </div>
 
         <div class="container signin">
-            <p>Nie masz konta? <a href="rejestracja.php">Zarejestruj się!</a>.</p>
+            <p>Jesteś członkiem zespołu? <a href="users.php">Przejdz do panelu admina</a>.</p>
+            <p>Nie masz konta? <a href="rejestracja.php">Zarejestruj się!</a></p>
         </div>
     </form>
-
-    <?php
-
-    ?>
 </body>
 </html>
